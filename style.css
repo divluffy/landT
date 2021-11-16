@@ -30,7 +30,7 @@ body{
 .circle_top_rigth{
     top: -80px ;
     right: -90px ;
-    animation: moveStart1 0.6s ease-in-out;
+    animation: moveStart1 0.8s ease-in-out;
 }
 
 @keyframes moveStart1 {
@@ -42,7 +42,7 @@ body{
 .circle_bottom_left{
     bottom: -140px;
     left: -90px;
-    animation: moveStart2 0.6s ease-in-out;
+    animation: moveStart2 0.8s ease-in-out;
 }
 
 @keyframes moveStart2 {
