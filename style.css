@@ -95,6 +95,16 @@ body{
 
 }
 
+.line_1{
+    animation: moveLine1 1.8s ease-in-out;
+}
+
+@keyframes moveLine1 {
+    0%{
+        height: 0%;
+    }
+}
+
 .line_2{
     height: 90%;
     width: 3px;
@@ -104,8 +114,19 @@ body{
 .line_3{
     height: 70%;
     width: 2px;
-
 }
+
+.line_3{
+    animation: moveLine2 1.5s ease-in-out;
+}
+
+@keyframes moveLine2 {
+    0%{
+        height: 0%;
+    }
+}
+
+
 
 .head_circle_line{
     width: 100px;
